@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="res.css">
+    <title>Document</title>
+</head>
+<body>
+  <style>
+    .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #000000;
+        overflow-x: hidden;
+        transition: 1.0s;
+        z-index: 1;
+    }
+
+    .overlay-content {
+        position: relative;
+        top: 25%;
+        
+        width: 100%;
+        text-align: center;
+    }
+
+    .overlay a {
+        padding: 10px;
+        text-decoration: none;
+        font-size: 40px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .overlay a:hover,
+    .overlay a:focus {
+        color: rgb(148, 144, 144);
+    }
+
+    .overlay .closebtn {
+        position: absolute;
+        top: 10px;
+        right: 35px;
+        font-size: 70px;
+    }
+</style>
+</head>
+
+<body>
+
+<div id="myNav" class="overlay">
+    <a href="javascript:void(0)" 
+        class="closebtn" onclick="closeNav()">
+        ×
+    </a>
+    <div class="overlay-content">
+        <a href="index.html">Home</a>
+        <a href="/index.html">REVELATION</a>
+        <a href="/about-us.html">EVENTS</a>
+        <a href="/contact-form-v1/ContactFrom_v1/index.html">Contact</a>
+    </div>
+</div>
+
+<span style="font-size:35px;cursor:pointer"
+    onclick="openNav()">
+    ≡
+</span>
+
+<!-- <h2>GeeksForGeeks</h2>
+
+<p>
+    Click on the nav bar icon 
+    to see full screen overlay:
+</p> -->
+
+<script>
+    function openNav() {
+        document.getElementById(
+            "myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById(
+            "myNav").style.width = "0%";
+    }
+</script>
+<!-- 
+<div class="design-box">
+  <img src="images/design-2.png" alt="">
+</div> -->
+<div class="container">
+  <div class="card">
+    <div class="card__header">
+      <a href=""><img src="/images/1 (5).png" alt="card__image" class="card__image" width="600"></a>
+    </div>
+    <div class="card__body">
+      <!-- <span class="tag tag-blue">Technology</span> -->
+      <h4>BOT SPRINT</h4>
+  
+    </div>
+ 
+    <div class="user">
+      <a href="https://forms.gle/YTFjPg2Mxj7mCXkU9"><button class="button-28" role="button">register now</button></a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card__header">
+      <img src="/images/2 (4).png" alt="card__image" class="card__image" width="600">
+    </div>
+    <div class="card__body">
+      <!-- <span class="tag tag-brown">Food</span> -->
+      <h4>DATA DECRYPTION QUEST</h4>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p> -->
+    </div>
+    <div class="card__footer">
+      <a href=""><button class="button-28" role="button">register now</button></a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card__header">
+      <img src="/images/3 (3).png" alt="card__image" class="card__image" width="600">
+    </div>
+    <div class="card__body">
+      <!-- <span class="tag tag-red">Automobile</span> -->
+      <h4>WEB WIZARDS</h4>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p> -->
+    </div>
+    <div class="card__footer">
+      <div class="user">
+        <!-- <img src="https://i.pravatar.cc/40?img=3" alt="user__image" class="user__image"> -->
+        <div class="user__info">
+          <!-- <h5>John Doe</h5>
+          <small>2d ago</small> -->
+          <a href="https://forms.gle/E9MfB2WUtv9MkZrF7"><button class="button-28" role="button">register now</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="card">
+    <div class="card__header">
+      <img src="/images/4 (2).png" alt="card__image" class="card__image" width="600">
+      
+    </div>
+    <div class="card__body">
+      <!-- <span class="tag tag-blue">Technology</span> -->
+      <h4>FLASH CODE</h4>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p> -->
+    </div>
+    <div class="card__footer">
+      <div class="user">
+       
+        <div class="user__info">
+          
+          <a href="https://forms.gle/oeYi1gaRJLNeto8R9"><button class="button-28" role="button">register now</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card__header">
+      <img src="/images/5.png" alt="card__image" class="card__image" width="600">
+    </div>
+    <div class="card__body">
+      <!-- <span class="tag tag-brown">Food</span> -->
+      <h4>MELT AND MOLD MASTERY</h4>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p> -->
+    </div>
+    <div class="card__footer">
+      <div class="user">
+        <a href="https://forms.gle/h8nF1Zhj9SDPXjY49"><button class="button-28" role="button">register now</button></a>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card__header">
+      <img src="/images/6.png" alt="card__image" class="card__image" width="600">
+    </div>
+    <div class="card__body">
+      <!-- <span class="tag tag-red">Automobile</span> -->
+      <h4>IMAGE CLASSIFICATION CHALLANGE</h4>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p> -->
+    </div>
+    <div class="card__footer">
+      <div class="user">
+        <!-- <img src="https://i.pravatar.cc/40?img=3" alt="user__image" class="user__image"> -->
+        <div class="user__info">
+          <a href="https://forms.gle/BQ36fXTpS5esxPQZ9"><button class="button-28" role="button">register now</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="card">
+    <div class="card__header">
+      <img src="/images/7.png" alt="card__image" class="card__image" width="600">
+    </div>
+    <div class="card__body">
+      <!-- <span class="tag tag-blue">Technology</span> -->
+      <h4>DEBUG</h4>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p> -->
+    </div>
+    <div class="card__footer">
+      <div class="user">
+     
+        <div class="user__info">
+          <a href="https://forms.gle/hmNXpMFcaeS9zEH28"><button class="button-28" role="button">register now</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card__header">
+      <img src="/images/8.png" alt="card__image" class="card__image" width="600">
+    </div>
+    <div class="card__body">
+      <!-- <span class="tag tag-brown">Food</span> -->
+      <h4> IQUIZ</h4>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p> -->
+    </div>
+    <div class="card__footer">
+      <div class="user">
+        <!-- <img src="https://i.pravatar.cc/40?img=2" alt="user__image" class="user__image"> -->
+        <div class="user__info">
+          <a href="https://forms.gle/gZCkKEzi4cq6pTBb8"><button class="button-28" role="button">register now</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card__header">
+      <img src="/images/9.png" alt="card__image" class="card__image" width="600">
+    </div>
+    <div class="card__body">
+      <!-- <span class="tag tag-red">Automobile</span> -->
+      <h4>BRAIN STORM HACKATHON </h4>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p> -->
+    </div>
+    <div class="card__footer">
+      <div class="user">
+        <!-- <img src="https://i.pravatar.cc/40?img=3" alt="user__image" class="user__image"> -->
+        <div class="user__info">
+          <a href="https://forms.gle/D5vcfzWPMgN9J6aG7"><button class="button-28" role="button">register now</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="card">
+    <div class="card__header">
+      <img src="/images/10.png" alt="card__image" class="card__image" width="600">
+    </div>
+    <div class="card__body">
+      <!-- <span class="tag tag-blue">Technology</span> -->
+      <h4>CIRCUITRY 2.0</h4>
+      <!-- <p>Lorem sum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p> -->
+    </div>
+    <div class="card__footer">
+      <div class="user">
+        <!-- <img src="https://i.pravatar.cc/40?img=1" alt="user__image" class="user__image"> -->
+        <div class="user__info">
+           <a href=""><button class="button-28" role="button">register now</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card__header">
+      <img src="/images/11.png" alt="card__image" class="card__image" width="600">
+    </div>
+    <div class="card__body">
+      <!-- <span class="tag tag-brown">Food</span> -->
+      <h4>CIRCUIT CPR</h4>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p> -->
+    </div>
+    <div class="card__footer">
+      <div class="user">
+        <!-- <img src="https://i.pravatar.cc/40?img=2" alt="user__image" class="user__image"> -->
+        <div class="user__info">
+          <a href="https://forms.gle/neGDLoYp8UhtBZjT9"><button class="button-28" role="button">register now</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card__header">
+      <img src="/images/12.png" alt="card__image" class="card__image" width="600">
+    </div>
+    <div class="card__body">
+      <!-- <span class="tag tag-red">Automobile</span> -->
+      <h4>ALGOHOLIC</h4>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p> -->
+    </div>
+    <div class="card__footer">
+      <div class="user">
+        <!-- <img src="https://i.   .cc/40?img=3" alt="user__image" class="user__image"> -->
+        <div class="user__info">
+          <a href="https://forms.gle/wHxVLrSAcKi9ZTUK7"><button class="button-28" role="button">register now</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card__header">
+      <img src="/images/14.png" alt="card__image" class="card__image" width="600">
+    </div>
+    <div class="card__body">
+      <!-- <span class="tag tag-red">Automobile</span> -->
+      <h4>E SPORTS</h4>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p>
+    </div> -->
+    <a href="https://forms.gle/YPESnJdmK3oiJLoL6"><button class="button-28" role="button">register now</button></a></a>
+  </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+
+</html>
